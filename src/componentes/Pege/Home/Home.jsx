@@ -1,6 +1,7 @@
-import { Main } from "../../Layouts/Main/Main"
-import { Header } from "../../Layouts/Header/Header"
-import '../../Pege/Home/Home.css'
+import React from 'react';
+import { Main } from "../../Layouts/Main/Main";
+import { Header } from "../../Layouts/Header/Header";
+import './Home.css';
 
 export const Home = () =>{
     return(
@@ -8,9 +9,6 @@ export const Home = () =>{
         <div className="body" >
         <Header/>
         <Main/>
-        
-
-
         
         </div>
     )

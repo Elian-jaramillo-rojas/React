@@ -1,4 +1,4 @@
-
+import React from 'react';
 import {Main1} from '../../Ui/Main1/Main1.jsx';
 
 export const Main = () =>{
@@ -6,8 +6,6 @@ export const Main = () =>{
     <div>
         
         <Main1/>
-        
-
         
     </div>
 
